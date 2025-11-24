@@ -2,13 +2,11 @@
 
 from openai import OpenAI
 from dotenv import load_dotenv
-import os
-
-
+#import os
 
 load_dotenv()
-
-client = OpenAI(api_key=os.getenv("TEST_API_KEY"))
+#client = OpenAI(api_key=os.getenv("TEST_API_KEY"))
+client = OpenAI()
 
 response = client.responses.create(
     model="gpt-5-nano",
