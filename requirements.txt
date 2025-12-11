@@ -10,3 +10,6 @@ langchain_core
 streamlit
 langchain-aws
 scikit-learn
+langchain-chroma
+langchain-community
+pypdf
